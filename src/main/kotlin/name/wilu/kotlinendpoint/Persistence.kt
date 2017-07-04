@@ -25,6 +25,10 @@ class LookupService(val jdbc: NamedParameterJdbcTemplate) {
             })
 
     fun byId(id: String): List<User> = byIds(listOf(id))
+    //
+    fun byDetails(id: String?, name: String?, surname: String?, mail: String?): List<User> {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
 }
 
