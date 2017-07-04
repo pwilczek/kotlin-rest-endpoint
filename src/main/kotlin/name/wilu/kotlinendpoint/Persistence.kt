@@ -22,6 +22,10 @@ class LookupService(val jdbc: JdbcTemplate) {
         })
     }
 
+    fun byIds(ids: List<String>): List<User> {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
 }
 
 @Configuration
