@@ -10,5 +10,3 @@ class KotlinEndpointApplication
 fun main(args: Array<String>) {
     SpringApplication.run(KotlinEndpointApplication::class.java, *args)
 }
-
-
